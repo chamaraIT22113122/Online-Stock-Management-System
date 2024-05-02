@@ -1,0 +1,269 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image:url(stock.jpg);
+    background-size: cover;
+    box-sizing:border-box;
+    font-family:sans-serif;
+   
+
+}
+.h1{
+    font-style: italic;
+}
+.menu-bar
+{
+    background: rgb(189, 211, 195);
+    text-align:center;
+}
+.menu-bar ul
+{
+ display:inline-flex;
+ list-style:none;
+ 
+}
+.menu-bar ul li
+{
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a
+{
+    text-decoration:none;
+    color:#fff;
+}
+.active,.menu-bar ul li:hover
+{
+    background:#28c590;
+    border-radius:3px;
+
+}
+.search{
+    text-align:center;
+    font-size:40px;
+}
+.footer{
+margin-top: 150px;
+width: 70%;
+padding:100px 15%;
+background:#333;
+color:#efefef;
+display:flex;
+
+}
+.footer div{
+    text-align:center;
+}
+.col-2{
+    flex-grow:1;
+}
+
+.footer div h3{
+    font-weight:300;
+    margin-bottom :30px;
+    letter-spacing:1px;
+}
+
+.col-2 a{
+    display:block;
+    text-decoration:none;
+    color:#efefef;
+    margin-bottom:10px;
+}
+a:hover{
+    color:#f18930;
+}
+i:hover{
+    color:#f18930;
+}
+.bottom-bar{
+    background:#f18930;
+    text-align:center;
+    padding:10px 0;
+    margin-top:0px;
+}
+.bottom-bar p{
+    color:#343434;
+    margin:0;
+    font-size:16px;
+    padding:5px;
+} 
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px;
+    rgba(0,0,0,0.3);
+    color: #fff;
+
+}
+form#register{
+    margin: 40px;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+input#name{
+    
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline:0;
+    padding:7px ;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+   
+}
+input#mobile{
+    
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline:0;
+        padding:7px ;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+       
+    }
+
+    input#email{
+    
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline:0;
+        padding:7px ;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+       
+    }  
+    
+    input#address{
+    
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline:0;
+        padding:7px ;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+       
+    }
+
+    input#CID{
+    
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline:0;
+        padding:7px ;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+       
+    }
+    input#mobile{
+    
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline:0;
+        padding:7px ;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+       
+    }
+
+    input#pwd{
+    
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline:0;
+        padding:7px ;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px
+         rgba(0,0,0,0.3);
+       
+    }
+    input#confirm_pwd{
+    
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline:0;
+        padding:7px ;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px 
+        rgba(0,0,0,0.3);
+       
+    }
+
+
+input#Submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: coral;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+input#Cancel{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: coral;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label,span,h1{
+    text-shadow: 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+
+
+
