@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <!--set an icon to browser-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="x-icon" href="img/logo icon 123.png">
+        <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+      
+    </head>
+    <body>
+        <div class="hero">
+             <nav>
+                <!--logo_txt-->
+                <a href="after_login.php"><img class="logo" src="img/logo.png" alt="logo"></a>
+                <ul class="nav_links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li><a href="my_orders.html">Orders details</a></li>
+                </ul>
+            <!--user image-->
+                <img class="user_pic" src="img/user profile icons/user.png" onclick="toggleMenu()">
+                <!--User Profile-->
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="img/user profile icons/user.png">
+                            <h3>Chamara Nuwan</h3>
+                        </div>
+                        <hr>
+                        <a href="edit_profile.php" class="sub-menu-link">
+                            <img src="img/user profile icons/profile.png">
+                            <p>Edit Profile</p>
+                            <span>></span>
+                        </a>
+                        <a href="setting_privacy.php" class="sub-menu-link">
+                            <img src="img/user profile icons/setting.png">
+                            <p>Setting & Privacy</p>
+                            <span>></span>
+                        </a>
+                        <a href="https://www.who.int/campaigns/world-blood-donor-day/2018/who-can-give-blood" target="_blank" class="sub-menu-link">
+                            <img src="img/user profile icons/help.png">
+                            <p>Help & Support</p>
+                            <span>></span>
+                        </a>
+                        <a href="login.html" class="sub-menu-link">
+                            <img src="img/user profile icons/logout.png">
+                            <p>Logout</p>
+                        </a>
+                    </div>
+                </div>
+                <!--Login Button-->
+                <a href="login.html"><button class="login_b">LOGIN</button> </a>
+            </nav>
+            
+    <!--js link-->        
+        <script src="js/myscript.js"></script>   
+        <script>
+        let subMenu = document.getElementById("subMenu");
+                function toggleMenu(){
+                    subMenu.classList.toggle("open-menu");
+                }  
+        </script>
+    </body>
+</html>
