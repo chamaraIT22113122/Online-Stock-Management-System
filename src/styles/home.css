@@ -1,0 +1,36 @@
+.welcome {
+    margin: 20px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 30%;
+}
+
+.feature-box h3 {
+    color: #333;
+}
+
+.feature-box p {
+    font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
