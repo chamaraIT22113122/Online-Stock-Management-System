@@ -1,0 +1,121 @@
+/* Reset margin, padding and font settings for consistency */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Layout using Flexbox */
+.admin-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar styles with gradient and shadow */
+.sidebar {
+    width: 240px;
+    background: linear-gradient(145deg, #00416a, #e4e5e6);
+    color: #ffffff;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h1 {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover, .menu li a:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* Main Content Area */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.main-content h2 {
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Table styles with better spacing and aesthetics */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #666;
+    color: #ffffff;
+}
+
+/* Buttons with a modern look */
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #004494;
+    transform: scale(1.05);
+}
+
+/* Responsive design tweaks */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar h1 {
+        text-align: center;
+    }
+
+    .menu li a {
+        text-align: center;
+    }
+
+    .admin-wrapper {
+        flex-direction: column;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
